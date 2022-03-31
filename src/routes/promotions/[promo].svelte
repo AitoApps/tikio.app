@@ -12,7 +12,7 @@
 </script>
 
 <script>
-    export let offer;
+    export let promo;
 </script>
 
-<h1>{offer}</h1>
+<h1>{promo}</h1>
