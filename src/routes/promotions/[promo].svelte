@@ -1,11 +1,11 @@
 <script context="module">
     export const load = ({ URL, params }) => {
         console.log(params);
-        let offer = params.offer;
+        let promo = params.offer;
 
         return {
             props: {
-                offer,
+                promo,
             },
         };
     };
