@@ -1,7 +1,7 @@
 <script context="module">
     export const load = ({ URL, params }) => {
         console.log(params);
-        let promo = params.offer;
+        let promo = params.promo;
 
         return {
             props: {
